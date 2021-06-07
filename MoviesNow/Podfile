@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MoviesNow' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MoviesNow
+  pod 'Alamofire', '~> 5.4'
+  pod 'AlamofireImage', '~> 4.1'
+  pod 'YoutubePlayer-in-WKWebView', '~> 0.3'
+
+  target 'MoviesNowTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MoviesNowUITests' do
+    # Pods for testing
+  end
+
+end
