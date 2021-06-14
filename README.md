@@ -1,19 +1,12 @@
-# Code Challenge iOS
+The Movie APP
 
-## O desafio:
-Utilizando a API do [TheMovieDB](https://developers.themoviedb.org/3/getting-started/introduction), Criar um app que mostre os filmes que estão em cartaz nos cinemas, em forma de lista.
+Instruções para utilização da API:
 
-Ao tocar em um filme, mostrar em uma nova tela, informações detalhadas sobre ele, você pode escolher quais informações acha interessante mostrar.
+Chave da API (v3 auth)
+e105d93293b3cbd3068fb1499d30e158
 
-## Extras:
+Exemplo de Requisição de API
+https://api.themoviedb.org/3/movie/550?api_key=e105d93293b3cbd3068fb1499d30e158
 
-- Na tela de listagem dos filmes, ir carregando as próximas páginas ao dar scroll até o final da página atual
-- Na tela de detalhe, criar uma opçāo para tocar o vídeo do trailer do filme.
-- Na tela inicial, possibilitar a busca por título do filme
-
-
-No final, um pull request deve ser criado no repositório do Github. Assim que terminar, por favor nos avise.
-
-Estamos à disposição, para tirar dúvidas.
-
-Happy coding! 🤓
+Token de Leitura da API (v4 auth)
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlMTA1ZDkzMjkzYjNjYmQzMDY4ZmIxNDk5ZDMwZTE1OCIsInN1YiI6IjYwYzViNThhOTg4YWZkMDA3NzBjYjQ1NyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.y4K_KTCgOKBfW6vzIdBlnGtlEC1Mce6QaweKNMIe8ko
